@@ -45,7 +45,7 @@ fi
 
 dl_script() {
   rm -rf "$SCRIPT_PATH"
-  curl -o "$SCRIPT_PATH" https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/b8e298003fe3120edccb02fabc5d7e86daef22e6/install-panel.sh
+  curl -o "$SCRIPT_PATH" https://raw.githubusercontent.com/BluePandaLucas/pterodactyl-installer/b8e298003fe3120edccb02fabc5d7e86daef22e6/install-panel.sh
   chmod +x "$SCRIPT_PATH"
 }
 
